@@ -12,8 +12,6 @@ export default function Title() {
 
 const styles = StyleSheet.create({
   main: {
-    fontFamily: 'roboto',
-
     fontSize: 27,
     fontWeight: 'bold',
     letterSpacing: 0.5,
@@ -23,9 +21,8 @@ const styles = StyleSheet.create({
     fontSize: 13.5,
   },
   container: {
-    // marginTop: '5%',
-    // marginBottom: '2%',
     height: 70,
-    backgroundColor: 'gray',
+    paddingHorizontal: '6%',
+    marginTop: 5,
   },
 });

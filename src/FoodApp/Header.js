@@ -17,9 +17,10 @@ export default function Header() {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: '#aae',
+    // backgroundColor: '#aae',
     alignItems: 'center',
     height: 50,
+    paddingHorizontal: '6%',
   },
   basket: {
     padding: '2%',
